@@ -10,6 +10,7 @@ Once the power switch is flipped the display is initialized and cleared then the
 ![front side of pcb with protective foil still on](https://raw.githubusercontent.com/HKay/oled-earrings/master/doc/front.jpeg)
 ![back side of pcb](https://raw.githubusercontent.com/HKay/oled-earrings/master/doc/backside.jpeg)
 The components are hand soldered on dot grid prototyping board. The board is just a little bigger than the Display itself. The battery holder uses most of the pcb area. The rest is covered with the ATTiny85. To fit an SOIC-8 IC on a 2.54mm grid the pins have to be bent quite a lot.
+![pcb tied to a programmer](https://raw.githubusercontent.com/HKay/oled-earrings/master/doc/programming.jpeg)
 
 ![schematics](https://raw.githubusercontent.com/HKay/oled-earrings/master/doc/schematics.png)
 The switch is for battery under voltage protection.
