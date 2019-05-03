@@ -155,7 +155,7 @@ void disp_init( void ) {
 	sendCommand( 1, (uint8_t[]){ 0x2E } ); // stop scrolling
 	sendCommand( 1, (uint8_t[]){ 0xAE } ); // set disp off
 	sendCommand( 1, (uint8_t[]){ 0xE3 } ); // NOP
-	sendCommand( 2, (uint8_t[]){ 0x8D, 0x14 } ); // disable charge pump
+	sendCommand( 2, (uint8_t[]){ 0x8D, 0x10 } ); // disable charge pump
 
 	// back on again
 	sendCommand( 2, (uint8_t[]){ 0xA8, 0x3F } ); // mux ratio
